@@ -12,7 +12,8 @@ h1 {
 	top: 0;
 	width: 100%;
 	font-size: 35px;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #container {
