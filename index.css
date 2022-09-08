@@ -104,11 +104,23 @@ footer {
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+	.short-response {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	#assignments {
 		margin-left: 90px;
 		margin-right: 90px;
+	}
+	iframe {
+		width: 400px;
+		height: 200px;
+	}
+	.short-response {
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }
