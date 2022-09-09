@@ -56,10 +56,12 @@ a {
 
 .micro:hover {
 	background-color: lightskyblue;
+	opacity: 0.5;
 }
 
 .macro:hover {
 	background-color: lightseagreen;
+	opacity: 0.5;
 }
 
 .image {
