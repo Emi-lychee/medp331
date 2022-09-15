@@ -11,7 +11,7 @@ h1 {
 	left: 0;
 	top: 0;
 	width: 100%;
-	font-size: 35px;
+	font-size: 50px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -26,6 +26,20 @@ a {
 	margin: 10px;
 	justify-content: center;
 	text-align: center;
+}
+
+#quote {
+	font-style: italic;
+	color: lightseagreen;
+	font-size: 27px;
+}
+
+#button {
+	background-color: white;
+	color: lightseagreen;
+	font-size: 15px;
+	padding: 5px;
+	border: 2px solid black;
 }
 
 #assignments {
