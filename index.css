@@ -34,12 +34,16 @@ a {
 	font-size: 27px;
 }
 
-#button {
+.button {
 	background-color: white;
 	color: lightseagreen;
 	font-size: 15px;
 	padding: 5px;
 	border: 2px solid black;
+}
+
+.button:hover {
+	background-color: #ededed;
 }
 
 #assignments {
