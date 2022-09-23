@@ -112,6 +112,26 @@ iframe {
 	text-align: center;
 }
 
+#myInput {
+	background-color: white;
+	color: lightseagreen;
+	font-size: 15px;
+	padding: 5px;
+	border: 2px solid black;
+	width: 30%;
+}
+
+#output {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#picture {
+	height: 330px;
+	width: auto;
+}
+
 footer {
 	text-align: center;
 	background-color: lightcoral;
