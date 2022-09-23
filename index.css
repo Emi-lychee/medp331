@@ -31,7 +31,8 @@ a {
 #quote {
 	font-style: italic;
 	color: lightseagreen;
-	font-size: 27px;
+	font-size: 23px;
+	padding-bottom: 5px;
 }
 
 .button {
@@ -123,12 +124,12 @@ iframe {
 
 #output {
 	padding-top: 20px;
-	padding-bottom: 5px;
-	font-size: 20px;
+	padding-bottom: 3px;
+	font-size: 25px;
 }
 
 #picture {
-	height: 330px;
+	height: 280px;
 	width: auto;
 }
 
