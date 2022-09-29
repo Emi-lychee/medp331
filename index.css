@@ -133,6 +133,17 @@ iframe {
 	width: auto;
 }
 
+.question {
+	padding-top: 10px;
+	font-size: 25px;
+	line-height: 1px;
+}
+
+#pic {
+	height: 256px;
+	width: auto;
+}
+
 footer {
 	text-align: center;
 	background-color: lightcoral;
