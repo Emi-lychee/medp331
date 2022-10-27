@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Emily Wu - Midterm</title>
+	<link rel="stylesheet" type="text/css" href="midterm.css">
+</head>
+
+<body>
+	<a href="midterm.html">
+		<h1>Genshin Impact</h1>
+	</a>
+	<section id="container">
+		<div id="navigation">
+			<a class="center" href="midterm.html">Home</a>
+			<a class="center" href="about.html">About</a>
+			<a class="center" href="howtoplay.html">How To Play</a>
+		</div>
+		<div id="content1">
+			<input id="search" type="text" placeholder="Type a Genshin Impact character...">
+			<button class="button" type="button" onclick="getInputValue()">Show me</button>
+			<div id="results"></div>
+			<script src="https://genshin-app-api.herokuapp.com/api/characters?infoDataSize=[all/minimal]"></script>
+			<script src="https://genshin-app-api.herokuapp.com/api/weapons?infoDataSize=[all/minimal]"></script>
+			<script src="https://genshin-app-api.herokuapp.com/api/generalinfo/materials/[day]"></script>
+			<script src="https://genshin-app-api.herokuapp.com/api/talentmaterials?infoDataSize=[minimal/all]"></script>
+			<script src="https://genshin-app-api.herokuapp.com/api/enemies?family=[family_name]"></script>
+			<script src="https://genshin-app-api.herokuapp.com/api/enemydrops?infoDataSize=[minimal/all]"></script>
+			<script src="https://genshin-app-api.herokuapp.com/api/localspecialties?infoDataSize=[minimal/all]"></script>
+			<script src="https://genshin-app-api.herokuapp.com/api/weaponascensionmaterials?infoDataSize=[all/minimal]"></script>
+		</div>
+	</section>
+	<footer>
+		<h3 id="footer-content">© 2022 Emily Wu</h3>
+	</footer>
+	<button onclick="topFunction()" id="topButton" title="Go to top">△</button>
+	<script src="midterm.js"></script>
+</body>
+
+</html>
