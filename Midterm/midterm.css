@@ -28,6 +28,7 @@ a {
 
 a:hover {
 	color: #2560c5;
+	text-decoration: none;
 }
 
 #container {
