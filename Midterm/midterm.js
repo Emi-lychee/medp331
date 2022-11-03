@@ -102,7 +102,7 @@ function getCharacter() {
 			let rarity = data.payload.character.rarity;
 			display.innerHTML = "<img src=" + portraitImageURL + ">" + "<p>Name: " + name + "<br>Title: " + title + "<br>Element: " + element + "<br>Weapon: " + weapon + "<br>Gender: " + gender + "<br>Birthday: " + birthday + "<br>Rarity: " + rarity + "</p>";
 		} else {
-			display.innerHTML = data.message + "<br>Please check your spelling or capitalization.";
+			display.innerHTML = data.message + "<br>Please check your topic, capitalization, or spelling.";
 		}
 	}
 	xhttp.open("GET", characterResult, true);
@@ -124,7 +124,7 @@ function getWeapon() {
 			let rarity = data.payload.weapon.rarity;
 			display.innerHTML = "<img src=" + iconUrl + ">" + "<p>Name: " + name + "<br>Weapon Type: " + weaponType + "<br>Base Attack: " + baseAtk + "<br>Rarity: " + rarity + "</p>";
 		} else {
-			display.innerHTML = data.message + "<br>Please check your spelling or capitalization.";
+			display.innerHTML = data.message + "<br>Please check your topic, capitalization, or spelling.";
 		}
 	}
 	xhttp.open("GET", weaponResult, true);
@@ -144,7 +144,7 @@ function getEnemy() {
 			let family = data.payload.enemy.family;
 			display.innerHTML = "<img src=" + iconUrl + ">" + "<p>Name: " + name + "<br>Family: " + family + "</p>";
 		} else {
-			display.innerHTML = data.message + "<br>Please check your spelling or capitalization.";
+			display.innerHTML = data.message + "<br>Please check your topic, capitalization, or spelling.";
 		}
 	}
 	xhttp.open("GET", enemyResult, true);
