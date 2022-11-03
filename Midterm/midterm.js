@@ -1,3 +1,20 @@
+// Go to top button
+let topButton = document.getElementById("topButton")
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		topButton.style.display = "block";
+	} else {
+		topButton.style.display = "none";
+	}
+}
+
+function topFunction() {
+	document.documentElement.scrollTop = 0;
+}
+
 // Select topic
 var x, i, j, l, ll, selectElement, a, b, c;
 
@@ -149,21 +166,4 @@ function getEnemy() {
 	}
 	xhttp.open("GET", enemyResult, true);
 	xhttp.send();
-}
-
-// Go to top button
-let topButton = document.getElementById("topButton")
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		topButton.style.display = "block";
-	} else {
-		topButton.style.display = "none";
-	}
-}
-
-function topFunction() {
-	document.documentElement.scrollTop = 0;
 }
